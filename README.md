@@ -1,6 +1,5 @@
 # Reliance_Stock_Analysis 
 
-![Banner](https://github.com/rajveersinghcse/rajveersinghcse/blob/master/img/StockMarker.jpg)
 
 <h3>Hey Folks,👨🏻‍💻</h3>
 <p>I have created a <b>Stock Market Price Prediction</b> project that can predict the stock price of any company for the next 30 days. Here I used the last 7 years' data of Reliance Industries Limited. I did this project during my internship</p>
@@ -22,7 +21,7 @@
 
 # How to collect the Data?
 
-- I collected this data from 1-Jan-2015 to 28-Feb-2023. <b>[DATA](https://finance.yahoo.com/quote/RELIANCE.NS/history?period1=1420070400&period2=1672444800&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true)</b>
+- I collected this data from 1-Jan-2015 to 28-june-2023. <b>[DATA](https://finance.yahoo.com/quote/RELIANCE.NS/history?period1=1420070400&period2=1672444800&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true)</b>
 
 - You can download the data from the above website or use the Yfinance library to collect the data.
 
@@ -64,16 +63,12 @@ pip install -r requirements.txt
 - For model building part, we used SVR, Random Forest, KNN, LSTM, and GRU models.
 
 - I was getting more accuracy in LSTM than in other models. So I decided to use the LSTM model in my deployment program or main project.
-<img height="170" width="350" src="https://github.com/rajveersinghcse/rajveersinghcse/blob/master/img/ModelBuilding.png" alt="ModelBuilding">
-
-# Cloud Version of this project.
-- I deploy this project on the cloud you can check it out at this link: [Project](https://rajveersinghcse-reliance-stock-market-prediction-app-0xijl8.streamlit.app/)
 
 
 # How to deploy the project?
 - We used Streamlit library for the deployment part of this project. To deploy or run this project in your local system, you must run this command in your command prompt.
 ```bash
-streamlit run app.py 
+streamlit Deploymnt(DS).py 
 ```
 ---
 <p align="center">
